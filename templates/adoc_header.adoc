@@ -15,6 +15,7 @@
 $nist171_attribute
 $stig_attribute
 $cis_attribute
+$hipaa_attribute
 ifdef::backend-pdf[]
 = $profile_title
 $version ($release_date)

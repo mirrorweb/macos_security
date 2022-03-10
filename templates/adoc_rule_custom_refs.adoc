@@ -49,6 +49,10 @@ ifdef::show_CIS[]
 $rule_cis
 endif::[]
 
+ifdef::show_HIPAA[]
+$rule_hipaa
+endif::[]
+
 !CCE
 !$rule_cce
 
