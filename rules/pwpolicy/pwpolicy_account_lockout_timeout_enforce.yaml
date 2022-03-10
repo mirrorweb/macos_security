@@ -33,6 +33,8 @@ references:
       - N/A
     controls v8:
       - 4.1
+  hipaa:
+    - 164.312(a)(2)(iii)
 macOS:
   - "12.0"
 tags:
@@ -46,6 +48,7 @@ tags:
   - 800-53r5_high
   - cisv8
   - stig
+  - hipaa
 severity: "medium"
 mobileconfig: true
 mobileconfig_info:

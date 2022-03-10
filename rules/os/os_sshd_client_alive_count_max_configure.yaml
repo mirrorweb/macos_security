@@ -28,11 +28,13 @@ references:
     - APPL-12-000052
   800-171r2:
     - 3.13.9
+  hipaa:
+    - 164.312(a)(2)(iii)
 macOS:
   - "12.0"
 tags:
-  - none
   - stig
+  - hipaa
 severity: "medium"
 mobileconfig: false
 mobileconfig_info:

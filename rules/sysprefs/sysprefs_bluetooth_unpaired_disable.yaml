@@ -43,11 +43,21 @@ references:
       - 4.8
       - 12.6
       - 13.9
+  hipaa:
+    - 164.312(a)(2)(iv)
+    - 164.312(c)
+    - 164.312(c)(1)
+    - 164.312(c)(2)
+    - 164.312(e)
+    - 164.312(e)(1)
+    - 164.312(e)(2)(i)
+    - 164.312(e)(2)(ii)
 macOS:
   - "12.0"
 tags:
   - cis_lvl1
   - cis_lvl2
   - cisv8
+  - hipaa
 mobileconfig: false
 mobileconfig_info:

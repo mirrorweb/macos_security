@@ -26,10 +26,15 @@ references:
     - SRG-OS-000480-GPOS-00227
   disa_stig:
     - APPL-12-005053
+  hipaa:
+    - 164.316(b)(2)
+    - 164.316(b)(2)(i)
+    - 164.530(j)(1)
 macOS:
   - "12.0"
 tags:
   - stig
+  - hipaa
 severity: "low"
 mobileconfig: true
 mobileconfig_info:
