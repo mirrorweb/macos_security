@@ -1739,9 +1739,9 @@ def main():
             try:
                 rule_yaml['references']['hipaa']
             except KeyError:
-                srg = '- N/A'
+                hipaa = '- N/A'
             else:
-                srg = ulify(rule_yaml['references']['hipaa'])
+                hipaa = ulify(rule_yaml['references']['hipaa'])
 
             try:
                 rule_yaml['references']['srg']
