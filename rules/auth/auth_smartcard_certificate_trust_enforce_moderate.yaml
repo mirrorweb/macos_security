@@ -40,12 +40,15 @@ references:
     - SRG-OS-000067-GPOS-00035
   disa_stig:
     - APPL-12-001060
+  hipaa:
+      - 164.312(a)(2)(i)
 macOS:
   - "12.0"
 tags:
   - 800-53r4_moderate 
   - 800-53r5_moderate 
   - cnssi-1253
+  - hipaa
   - stig
 severity: "medium"
 mobileconfig: true
